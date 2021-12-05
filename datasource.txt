@@ -1,6 +1,6 @@
 #DataSourceSettings#
 #LocalDataSource: project-db (derby)
 #BEGIN#
-<data-source source="LOCAL" name="project-db (derby)" uuid="1ff9b2e2-347f-43d4-8f43-fd35dae940f4"><database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="DERBY" exact-version="0"/><driver-ref>derby.remote</driver-ref><synchronize>true</synchronize><jdbc-driver>org.apache.derby.jdbc.ClientDriver</jdbc-driver><jdbc-url>jdbc:derby://localhost:db/db;create=true</jdbc-url><secret-storage>master_key</secret-storage><schema-mapping/><working-dir>$ProjectFileDir$</working-dir></data-source>
+<data-source source="LOCAL" name="project-db (derby)" uuid="1ff9b2e2-347f-43d4-8f43-fd35dae940f4"><database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="DERBY" exact-version="0"/><driver-ref>derby.remote</driver-ref><synchronize>true</synchronize><jdbc-driver>org.apache.derby.jdbc.ClientDriver</jdbc-driver><jdbc-url>jdbc:derby://localhost:1527/db;create=true</jdbc-url><secret-storage>master_key</secret-storage><schema-mapping/><working-dir>$ProjectFileDir$</working-dir></data-source>
 #END#
 
