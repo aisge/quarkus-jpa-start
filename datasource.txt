@@ -1,6 +1,6 @@
 #DataSourceSettings#
-#LocalDataSource: project-db (derby)
+#LocalDataSource: db@localhost
 #BEGIN#
-<data-source source="LOCAL" name="project-db (derby)" uuid="1ff9b2e2-347f-43d4-8f43-fd35dae940f4"><database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="DERBY" exact-version="0"/><driver-ref>derby.remote</driver-ref><synchronize>true</synchronize><jdbc-driver>org.apache.derby.jdbc.ClientDriver</jdbc-driver><jdbc-url>jdbc:derby://localhost:1527/db;create=true</jdbc-url><secret-storage>master_key</secret-storage><schema-mapping/><working-dir>$ProjectFileDir$</working-dir></data-source>
+<data-source source="LOCAL" name="db@localhost" uuid="222f3428-b2ab-4154-95d1-e2c4e35d4c70"><database-info product="H2" version="2.3.232 (2024-08-11)" jdbc-version="4.2" driver-name="H2 JDBC Driver" driver-version="2.2.220 (2023-07-04)" dbms="H2" exact-version="2.3.232" exact-driver-version="2.2"><identifier-quote-string>&quot;</identifier-quote-string></database-info><case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/><driver-ref>h2.unified</driver-ref><synchronize>true</synchronize><jdbc-driver>org.h2.Driver</jdbc-driver><jdbc-url>jdbc:h2:tcp://localhost:9092/db</jdbc-url><jdbc-additional-properties><property name="com.intellij.clouds.kubernetes.db.host.port"/><property name="com.intellij.clouds.kubernetes.db.enabled" value="false"/><property name="com.intellij.clouds.kubernetes.db.container.port"/></jdbc-additional-properties><secret-storage>master_key</secret-storage><schema-mapping><introspection-scope><node kind="database" qname="@"><node kind="schema" qname="@"/></node></introspection-scope></schema-mapping><working-dir>$ProjectFileDir$</working-dir></data-source>
 #END#
 
